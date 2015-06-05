@@ -1,17 +1,17 @@
 # homebrew-chainer
 Chainer homebrew tap repository for Mac OS X
 
-- Current chainer version: 0.0.0 (HEAD)
+- Current chainer version: v1.0.0
 
 ### Requirements
 
-- Mac OS X (only supported with Yosemite)
-- homebrew
+- Mac OS X (tested only with Yosemite)
+- homebrew 0.9.5+
 
 ### Install
 
     > brew tap pfnet/chainer
-    > brew install chainer --HEAD
+    > brew install chainer
 
 ### Optional (with CUDA)
 
@@ -20,6 +20,6 @@ Chainer homebrew tap repository for Mac OS X
 ### Install (with CUDA)
 
     > brew tap pfnet/chainer
-    > brew install chainer --HEAD --enable-cuda
+    > brew install chainer --enable-cuda
 
 Note: CUDA does NOT work for Mac with non-nVidia GPUs, including MacBook Air and latest ones with AMD GPU.

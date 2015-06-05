@@ -1,11 +1,11 @@
 require 'formula'
 
 class Chainer < Formula
-  #url 'https://github.com/pfnet/chainer/tarball/1.0.0'
+  url 'https://github.com/pfnet/chainer/archive/v1.0.0.tar.gz'
   head 'https://github.com/pfnet/chainer.git', :using => :git
   homepage 'http://chainer.org/'
-  #sha1 ''
-  version '0.0.0'
+  sha1 'cb5eb5defd116013f275a5852105b71b3db07387'
+  version '1.0.0'
 
   option 'enable-cuda', 'Enable CUDA for nVidia-GPU-mounted Mac'
 
