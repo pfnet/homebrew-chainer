@@ -13,13 +13,17 @@ Chainer homebrew tap repository for Mac OS X
     > brew tap pfnet/chainer
     > brew install chainer
 
-### Optional (with CUDA)
+### Experimental (with CUDA)
 
 - CUDA 6.5 or 7.0 (nVidia GPU required)
+
+  - SET $CUDA_ROOT in your environment, like:
+
+    > export CUDA_ROOT=/usr/local/cuda/
 
 ### Install (with CUDA)
 
     > brew tap pfnet/chainer
     > brew install chainer --enable-cuda
 
-Note: CUDA does NOT work for Mac with non-nVidia GPUs, including MacBook Air and latest ones with AMD GPU.
+Note: Installation with CUDA on homebrew is experimental (Success/failure report is welcome). CUDA does NOT work for Mac with non-nVidia GPUs, including MacBook Air and latest ones with AMD GPU.
